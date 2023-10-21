@@ -1,0 +1,30 @@
+.HomePresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & .HomePicture {
+       display: flex;
+      justify-content: center;
+      align-items: center;
+    & img {
+   border-radius: 100%;
+      height: 500px;
+      width: 500px;
+    }
+  }
+
+  & .TextHome {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+
+
+    & p{
+      height: 500px;
+       width: 800px;
+    }
+
+  }
+}
