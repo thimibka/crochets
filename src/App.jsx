@@ -21,16 +21,14 @@ import Chale from "./Pages/Chale";
 import Decoration from "./Pages/Decoration";
 
 export default function App() {
-
   return (
     <>
-     <div style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div style={{ backgroundImage: `url(${backgroundImage})` }}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-       
+
           <Route path="/amigurumi" element={<Amigurumi />} />
-        
 
           <Route path="/plaid-couverture" element={<PlaidCoverage />} />
           <Route path="/plaid-couverture/plaid" element={<Plaid />} />
@@ -55,10 +53,8 @@ export default function App() {
 
           <Route path="/coeur" element={<Heart />} />
           <Route path="/marque-pages" element={<Bookmark />} />
-
         </Routes>
       </div>
     </>
   );
 }
-

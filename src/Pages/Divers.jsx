@@ -28,43 +28,43 @@ export default function Divers() {
 
   return (
     <>
-    <div className="contLink">
-      <div className="ContainerLink">
-        <div className="LinkTotal">
-          <div className="LinkText">
-            <p>Porte-clefs</p>
+      <div className="contLink">
+        <div className="ContainerLink">
+          <div className="LinkTotal">
+            <div className="LinkText">
+              <p>Porte-clefs</p>
+            </div>
+            <button onClick={keyRingParadise} className="LinkPicture">
+              <img src={card1} alt="" />
+            </button>
           </div>
-          <button onClick={keyRingParadise} className="LinkPicture">
-            <img src={card1} alt="" />
-          </button>
-        </div>
 
-        <div className="LinkTotal">
-          <div className="LinkText">
-            <p>Chausson bébé</p>
+          <div className="LinkTotal">
+            <div className="LinkText">
+              <p>Chausson bébé</p>
+            </div>
+            <button onClick={babySlipperParadise} className="LinkPicture">
+              <img src={card2} alt="" />
+            </button>
           </div>
-          <button onClick={babySlipperParadise} className="LinkPicture">
-            <img src={card2} alt="" />
-          </button>
-        </div>
 
-        <div className="LinkTotal">
-          <div className="LinkText">
-            <p>Decoration</p>
+          <div className="LinkTotal">
+            <div className="LinkText">
+              <p>Decoration</p>
+            </div>
+            <button onClick={decorationParadise} className="LinkPicture">
+              <img src={card3} alt="" />
+            </button>
           </div>
-          <button onClick={decorationParadise} className="LinkPicture">
-            <img src={card3} alt="" />
-          </button>
-        </div>
-        <div className="LinkTotal">
-          <div className="LinkText">
-            <p>Sac de plage</p>
+          <div className="LinkTotal">
+            <div className="LinkText">
+              <p>Sac de plage</p>
+            </div>
+            <button onClick={bagParadise} className="LinkPicture">
+              <img src={card4} alt="" />
+            </button>
           </div>
-          <button onClick={bagParadise} className="LinkPicture">
-            <img src={card4} alt="" />
-          </button>
         </div>
-      </div>
       </div>
     </>
   );

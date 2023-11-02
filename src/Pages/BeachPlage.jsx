@@ -6,7 +6,7 @@ import sacplage5 from "../assets/sac-plage/sacplage5.webp";
 import sacplage6 from "../assets/sac-plage/sacplage6.webp";
 
 export default function BeachPlage() {
-  const cardsInfos = [
+  const sacCards = [
     {
       id: 1,
       text: "plume de soi a la bave de crapeau",
@@ -41,18 +41,19 @@ export default function BeachPlage() {
   return (
     <>
       <h1 className="h1">Les sacs de plage</h1>
-
-      <div className="ContainerGrid">
-        {cardsInfos.map((info) => (
-          <div key={info.id} className="grid-item">
-            <div className="ImgInfo">
-              <img src={info.name} id="ige" alt="" />
+      <div className="Cont">
+        <div className="ContainerCards">
+          {sacCards.map((info) => (
+            <div key={info.id} className="grid-item">
+              <div className="ImgInfo">
+                <img className="imgBox" src={info.name} id="ige" alt="" />
+              </div>
+              <div className="TextInfo">
+                <p>{info.text}</p>
+              </div>
             </div>
-            <div className="TextInfo">
-              <p>{info.text}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   );

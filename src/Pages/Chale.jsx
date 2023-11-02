@@ -17,20 +17,20 @@ export default function Chale() {
   return (
     <>
       <h1 className="h1">Les châles</h1>
-        <div className="Cont">
-          <div className="ContainerCards">
-            {chaleCards.map((info) => (
-              <div key={info.id} className="grid-item">
-                <div className="ImgInfo">
-                  <img className="imgBox" src={info.name} id="ige" alt="" />
-                </div>
-                <div className="TextInfo">
-                  <p>{info.text}</p>
-                </div>
+      <div className="Cont">
+        <div className="ContainerCards">
+          {chaleCards.map((info) => (
+            <div key={info.id} className="grid-item">
+              <div className="ImgInfo">
+                <img className="imgBox" src={info.name} id="ige" alt="" />
               </div>
-            ))}
-          </div>
-       </div>
+              <div className="TextInfo">
+                <p>{info.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }

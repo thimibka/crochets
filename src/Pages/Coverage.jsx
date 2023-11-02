@@ -102,20 +102,19 @@ export default function Coverage() {
     <>
       <h1 className="h1">Les couvertures</h1>
       <div className="Cont">
-      <div className="ContainerCards">
-        {coverageCards.map((info) => (
-          <div key={info.id} className="grid-item">
-            <div className="ImgInfo">
-              <img className="imgBox"  src={info.name} id="ige" alt="" />
+        <div className="ContainerCards">
+          {coverageCards.map((info) => (
+            <div key={info.id} className="grid-item">
+              <div className="ImgInfo">
+                <img className="imgBox" src={info.name} id="ige" alt="" />
+              </div>
+              <div className="TextInfo">
+                <p>{info.text}</p>
+              </div>
             </div>
-            <div className="TextInfo">
-              <p>{info.text}</p>
-            </div>
-          </div>
-         
-        ))}
+          ))}
+        </div>
       </div>
-       </div>
     </>
   );
 }
