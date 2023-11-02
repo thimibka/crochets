@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "../src/styles/index.scss";
 import backgroundImage from "./assets/fond-ecran/blanc.jpg";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 
 import Home from "./Pages/Home";
 import Amigurumi from "./Pages/Amigurumi";
@@ -24,7 +24,7 @@ export default function App() {
   return (
     <>
       <div style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
 

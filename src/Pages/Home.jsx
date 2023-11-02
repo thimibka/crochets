@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 import home from "../assets/home/home.webp";
+import fleche from "../assets/fleches/fleche.png";
 import total from "../assets/peluches/total.webp";
 import plaid11 from "../assets/plaid/plaid11.webp";
 import chale2 from "../assets/chale/chale2.webp";
@@ -24,7 +25,7 @@ export default function Home() {
     navigate("/amigurumi");
   }
   function coverageParadise() {
-    navigate(":plaid-couverture");
+    navigate("/plaid-couverture");
   }
   function snoodParadise() {
     navigate("/echarpe-cachecou-chale");
@@ -74,6 +75,9 @@ export default function Home() {
             vivre de merveilleuses aventures crochet. Je vous souhaite une
             expérience enrichissante et inspirante sur mon site. Bienvenue dans
             l'univers du crochet ! Marine
+            <div className="containerFleche">
+              <img className="fleche-img" src={fleche} alt="fleche"></img>
+            </div>
           </p>
         </div>
       </div>

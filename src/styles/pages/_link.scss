@@ -1,7 +1,6 @@
-.contLink{
-display: flex;
-justify-content: center;
-
+.contLink {
+  display: flex;
+  justify-content: center;
 }
 .ContainerLink {
   display: grid;
@@ -13,26 +12,24 @@ justify-content: center;
   margin-top: 50px;
 }
 
-
 .LinkTotal {
   display: flex;
   flex-direction: column;
   width: 350px;
+  margin-top: 50px;
 }
 .LinkText {
   display: flex;
   justify-content: center;
   font-size: 20px;
   margin-bottom: 20px;
-
 }
 .LinkPicture {
-border-radius: 20px 70px 20px 70px;
-    height: 390px;
-    & img {
+  border-radius: 20px 70px 20px 70px;
+  height: 390px;
+  & img {
     border-radius: 20px 70px 20px 70px;
-      height: 100%;
-      width: 100%;
-    }
+    height: 100%;
+    width: 100%;
   }
-
+}
