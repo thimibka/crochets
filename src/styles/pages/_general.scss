@@ -1,7 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  background-image: url("../../assets/home/home.webp");
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/fond-ecran/blanc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .h1 {
