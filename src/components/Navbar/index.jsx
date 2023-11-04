@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="NavBar">
       <div className="decolink">
-        <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+        <NavLink to="/" className="acceuil">
           ACCUEIL
         </NavLink>
       </div>

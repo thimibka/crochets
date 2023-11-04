@@ -35,6 +35,18 @@
     width: 100%;
   }
 }
+.LinkPicture :hover {
+  border-radius: 20px 70px 20px 70px;
+  height: 390px;
+  width: 390px;
+  box-shadow: 15px 15px 15px rgb(3, 3, 3);
+  opacity: 0.5;
+  & img {
+    border-radius: 20px 70px 20px 70px;
+    height: 100%;
+    width: 100%;
+  }
+}
 @media (max-width: 990px) {
   .contLink {
     display: flex;
