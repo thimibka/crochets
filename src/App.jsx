@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "../src/styles/index.scss";
-import backgroundImage from "./assets/fond-ecran/blanc.jpg";
+// import backgroundImage from "./assets/fond-ecran/blanc.jpg";
 import Navbar from "./components/Navbar";
 
 import Home from "./Pages/Home";
@@ -23,7 +23,7 @@ import Decoration from "./Pages/Decoration";
 export default function App() {
   return (
     <>
-      <div style={{ backgroundImage: `url(${backgroundImage})` }}>
+      {/* <div style={{ backgroundImage: `url(${backgroundImage})` }}> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -54,7 +54,7 @@ export default function App() {
           <Route path="/coeur" element={<Heart />} />
           <Route path="/marque-pages" element={<Bookmark />} />
         </Routes>
-      </div>
+      {/* </div> */}
     </>
   );
 }
