@@ -24,7 +24,14 @@ export default function App() {
   return (
     <>
       <div className="background">
-        {/* <div style={{ backgroundImage: `url(${backgroundImage})` }}> */}
+        {/* <div
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
+          }}
+        > */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -55,8 +62,8 @@ export default function App() {
           <Route path="/coeur" element={<Heart />} />
           <Route path="/marque-pages" element={<Bookmark />} />
         </Routes>
+        {/* </div> */}
       </div>
-      {/* </div> */}
     </>
   );
 }
