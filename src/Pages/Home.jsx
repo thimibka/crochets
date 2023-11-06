@@ -75,10 +75,10 @@ export default function Home() {
             vivre de merveilleuses aventures crochet. Je vous souhaite une
             expérience enrichissante et inspirante sur mon site. Bienvenue dans
             l'univers du crochet ! Marine
-            <div className="containerFleche">
-              <img className="fleche-img" src={fleche} alt="fleche"></img>
-            </div>
           </p>
+        </div>
+        <div className="containerFleche">
+          <img className="fleche-img" src={fleche} alt="fleche"></img>
         </div>
       </div>
 
