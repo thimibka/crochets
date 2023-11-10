@@ -13,57 +13,57 @@ export default function KeyRing() {
   const portecleCards = [
     {
       id: 1,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: beignet,
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: cerise,
     },
     {
       id: 3,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: donuts,
     },
     {
       id: 4,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: ensemble,
     },
     {
       id: 5,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: ensemblemontage,
     },
     {
       id: 6,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: oreo,
     },
     {
       id: 7,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: pasteque,
     },
     {
       id: 8,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: tassegrise,
     },
     {
       id: 9,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: tassejaune,
     },
     {
       id: 10,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: tong,
     },
     {
       id: 11,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: beignet,
     },
   ];

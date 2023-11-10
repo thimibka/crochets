@@ -19,7 +19,6 @@
   // background-color: #1584bc;
   background-color: rgba(22, 122, 165, 0.768);
   border-radius: 0px 120px 50px 0px;
-  
 }
 
 .ImgInfo {
@@ -49,8 +48,10 @@
     column-gap: 20px;
   }
   .grid-item {
+     display: flex;
+    flex-direction: column;
     background-color: #1a5961;
-    border-radius: 0px;
+    border-radius: 20px;
   }
   .ImgInfo {
     margin-right: 0;
@@ -60,10 +61,10 @@
     width: 100%;
     height: auto;
     margin: 0;
-    border-radius: 0px;
+    border-radius: 20px;
   }
   .TextInfo {
-    margin: 0;
+    margin-bottom: 10px;
     font-family: "Times New Roman", Times, serif;
   }
 }
@@ -71,24 +72,25 @@
 @media screen and (max-width: 480px) {
   .ContainerCards {
     margin: 10px;
-    row-gap: 10px;
+    row-gap: 30px;
   }
   .grid-item {
+     display: flex;
+    flex-direction: column;
     background-color: #1a5961;
-    border-radius: 0px;
+    border-radius: 20px;
   }
   .ImgInfo {
-    margin-right: 0;
     margin-bottom: 10px;
   }
   .imgBox {
     width: 100%;
     height: auto;
     margin: 0;
-    border-radius: 0px;
+    border-radius: 20px;
   }
   .TextInfo {
-    margin: 0;
+    margin-bottom: 10px;
     font-family: "Times New Roman", Times, serif;
   }
 }
@@ -100,20 +102,20 @@
   .grid-item {
     flex-direction: column;
     background-color: #1a5961;
-    border-radius: 0px;
+    border-radius: 10px;
   }
-  .ImgInfo {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
+
   .imgBox {
     width: 100%;
     height: auto;
     margin: 0;
-    border-radius: 0px;
+    border-radius: 10px;
   }
   .TextInfo {
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
     font-family: "Times New Roman", Times, serif;
   }
 }

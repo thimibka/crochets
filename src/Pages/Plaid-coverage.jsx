@@ -30,82 +30,82 @@ export default function PlaidCoverage() {
   const plaidCoverageCards = [
     {
       id: 1,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture1,
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture2,
     },
     {
       id: 3,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture3,
     },
     {
       id: 4,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture4,
     },
     {
       id: 5,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture5,
     },
     {
       id: 6,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture6,
     },
     {
       id: 7,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture7,
     },
     {
       id: 8,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture8,
     },
     {
       id: 9,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture9,
     },
     {
       id: 10,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture10,
     },
     {
       id: 11,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture11,
     },
     {
       id: 12,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture12,
     },
     {
       id: 13,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture13,
     },
     {
       id: 14,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture14,
     },
     {
       id: 15,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture15,
     },
     {
       id: 16,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: couverture16,
     },
     {

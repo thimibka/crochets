@@ -15,28 +15,28 @@ export default function SnoodNeckCoverChale() {
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: cachecou2,
     },
     {
       id: 3,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: cachecou3,
     },
     {
       id: 4,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: cachecou4,
     },
 
     {
       id: 1,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: chale1,
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: chale2,
     },
   ];

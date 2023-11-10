@@ -9,32 +9,32 @@ export default function BeachPlage() {
   const sacCards = [
     {
       id: 1,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sacplage1,
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sacplage2,
     },
     {
       id: 3,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sacplage3,
     },
     {
       id: 4,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sacplage4,
     },
     {
       id: 5,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sacplage5,
     },
     {
       id: 6,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sacplage6,
     },
   ];

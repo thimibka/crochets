@@ -8,27 +8,27 @@ export default function Heart() {
   const cardsInfos = [
     {
       id: 1,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: coeur1,
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: coeur2,
     },
     {
       id: 3,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: coeur3,
     },
     {
       id: 4,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: coeur4,
     },
     {
       id: 5,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: coeur5,
     },
   ];

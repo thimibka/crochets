@@ -8,27 +8,27 @@ export default function Bookmark() {
   const cardsInfos = [
     {
       id: 1,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: plume,
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: plumes,
     },
     {
       id: 3,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sourisecrase,
     },
     {
       id: 4,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sourismp,
     },
     {
       id: 5,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: sourismpplume,
     },
   ];

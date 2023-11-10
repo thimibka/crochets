@@ -10,7 +10,7 @@ export default function BabySlipper() {
     },
     {
       id: 2,
-      text: "plume de soi a la bave de crapeau",
+      text: "description à venir",
       name: chausson2,
     },
   ];
