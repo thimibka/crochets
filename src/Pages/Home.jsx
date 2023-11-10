@@ -85,13 +85,15 @@ export default function Home() {
 
         <div className="contLink">
           <div className="ContainerLink">
-            <div className="LinkTotal">
-              <div className="LinkText">
-                <p>Amigurumi</p>
+            <div className="linkCenter">
+              <div className="LinkTotal">
+                <div className="LinkText">
+                  <p>Amigurumi</p>
+                </div>
+                <button onClick={amigurumiParadise} className="LinkPicture">
+                  <img src={card1} alt="" />
+                </button>
               </div>
-              <button onClick={amigurumiParadise} className="LinkPicture">
-                <img src={card1} alt="" />
-              </button>
             </div>
             <div className="LinkTotal">
               <div className="LinkText">
