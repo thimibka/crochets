@@ -146,17 +146,16 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin: 5px;
-    column-gap: 10px;
-    row-gap: 10px;
-    width: 80%;
+    margin: 20px;
+    column-gap: 20px;
+    row-gap: 30px;
   }
 
   .LinkTotal {
     display: flex;
     flex-direction: column;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
   }
   .LinkText {
     display: flex;
