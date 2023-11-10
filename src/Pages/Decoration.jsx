@@ -27,7 +27,7 @@ import decoration26 from "../assets/decorations/decoration26.webp";
 import decoration27 from "../assets/decorations/decoration27.webp";
 
 export default function Decoration() {
-  const cardsInfos = [
+  const decorationCards = [
     {
       id: 1,
       text: "plume de soi a la bave de crapeau",
@@ -167,17 +167,19 @@ export default function Decoration() {
   return (
     <>
       <h1 className="h1">Les decorations</h1>
-      <div className="ContainerGrid">
-        {cardsInfos.map((info) => (
-          <div key={info.id} className="grid-item">
-            <div className="ImgInfo">
-              <img src={info.name} id="ige" alt="" />
+      <div className="Cont">
+        <div className="ContainerCards">
+          {decorationCards.map((info) => (
+            <div key={info.id} className="grid-item">
+              <div className="ImgInfo">
+                <img className="imgBox" src={info.name} id="ige" alt="" />
+              </div>
+              <div className="TextInfo">
+                <p>{info.text}</p>
+              </div>
             </div>
-            <div className="TextInfo">
-              <p>{info.text}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </>
   );

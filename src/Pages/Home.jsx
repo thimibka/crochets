@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import home from "../assets/home/home.webp";
+import home from "../assets/logo/logocrochet.jpeg";
 import fleche from "../assets/fleches/fleche.png";
 import total from "../assets/peluches/total.webp";
 import plaid11 from "../assets/plaid/plaid11.webp";
@@ -9,7 +9,8 @@ import ensemble from "../assets/porteclef/ensemble.webp";
 import chausson3 from "../assets/chaussons-bébé/chausson3.webp";
 import decoration16 from "../assets/decorations/decoration16.webp";
 import sacplage5 from "../assets/sac-plage/sacplage5.webp";
-import image from "../../src/assets/fond-ecran/blanc.jpg";
+
+
 export default function Home() {
   const card1 = [total];
   const card2 = [plaid11];
@@ -45,7 +46,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="background" style={{ backgroundImage: `url(${image})` }}>
+     
         <div className="HomePresentation">
           <div className="HomePicture">
             <img className="picture" src={home} alt="home"></img>
@@ -149,7 +150,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+     
     </>
   );
 }

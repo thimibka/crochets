@@ -1,35 +1,51 @@
 .NavBar {
-  font-size: 20px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   list-style: none;
   display: flex;
   justify-content: space-around;
-  background-color: #1a5961;
+ background: linear-gradient(90deg, rgba(220, 186, 20, 1) 0%, rgba(0, 176, 212, 1) 34%, rgba(160, 4, 115, 1) 100%);
   position: fixed;
   top: 0;
   width: 100%;
   height: 50px;
 }
 a {
-  color: #dcb253;
+  // color: #dcb253;
+  color: #052c3d;
   text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 .decolink {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+
+
 @media (max-width: 390px) {
   .NavBar {
     font-size: 15px;
-    background-color: #1a5961;
 
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(0, 188, 212, 1) 50%,
+    rgba(238, 130, 238, 1) 100%
+  );
     height: 20px;
     width: 100%;
   }
   a {
-    color: #dcb253;
+      color: #052c3d;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  
     text-decoration: none;
     font-size: 10px;
   }
