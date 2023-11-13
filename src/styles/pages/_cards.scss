@@ -48,7 +48,7 @@
     column-gap: 20px;
   }
   .grid-item {
-     display: flex;
+    display: flex;
     flex-direction: column;
     background-color: #1a5961;
     border-radius: 20px;
@@ -75,13 +75,14 @@
     row-gap: 30px;
   }
   .grid-item {
-     display: flex;
+    display: flex;
     flex-direction: column;
     background-color: #1a5961;
     border-radius: 20px;
   }
   .ImgInfo {
     margin-bottom: 10px;
+    height: 80%;
   }
   .imgBox {
     width: 100%;
@@ -103,11 +104,14 @@
     flex-direction: column;
     background-color: #1a5961;
     border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 50px;
   }
 
   .imgBox {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
     border-radius: 10px;
   }
