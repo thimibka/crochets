@@ -19,15 +19,19 @@
   // background-color: #1584bc;
   background-color: rgba(22, 122, 165, 0.768);
   border-radius: 0px 120px 50px 0px;
+  
 }
 
 .ImgInfo {
-  margin-right: 20px;
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 50%;
 }
 
 .imgBox {
-  width: 250px;
-  height: 250px;
+  height: 60%;
+  width: 60%;
   margin-top: 10px;
   margin-left: 0px;
   border-radius: 0px 0px 0px 0px;
@@ -36,7 +40,7 @@
 
 .TextInfo {
   margin-left: 20px;
-  margin-right: 40px;
+  margin-right: 100px;
   // color: #dcb253;
   color: white;
   font-family: "Times New Roman", Times, serif;

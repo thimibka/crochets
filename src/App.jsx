@@ -15,6 +15,7 @@ import Divers from "./Pages/Divers";
 import Decoration from "./Pages/Decoration";
 
 import image from "../src/assets/fond-ecran/cf.jpeg";
+import ScrollToTop from "./components/ScrollToTop";
 export default function App() {
   return (
     <>
@@ -34,6 +35,9 @@ export default function App() {
           <Route path="/coeur" element={<Heart />} />
           <Route path="/marque-pages" element={<Bookmark />} />
         </Routes>
+      </div>
+      <div className="scroll">
+        <ScrollToTop />
       </div>
     </>
   );
