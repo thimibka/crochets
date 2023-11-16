@@ -18,7 +18,7 @@ export default function BabySlipper() {
   return (
     <>
       <>
-        <h1 className="h1">Chausson-bebe</h1>
+      
         <div className="Cont">
           <div className="ContainerCards">
             {chaussonCards.map((info) => (

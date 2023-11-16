@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "../src/styles/index.scss";
 
-import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import Amigurumi from "./Pages/Amigurumi";
 import NeckCover from "./Pages/NeckCover";
@@ -16,10 +15,14 @@ import Decoration from "./Pages/Decoration";
 
 // import image from "../src/assets/fond-ecran/cf.jpeg";
 import ScrollToTop from "./components/ScrollToTop";
+import Menu from "./components/Menu";
+import Navbar from "./components/Navbar";
 export default function App() {
   return (
     <>
+      <Menu />
       <Navbar />
+
       {/* <div className="background" style={{ backgroundImage: `url(${image})` }}> */}
       <Routes>
         <Route path="/" element={<Home />} />

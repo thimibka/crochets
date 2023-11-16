@@ -167,7 +167,6 @@ export default function PlaidCoverage() {
 
   return (
     <>
-      <h1 className="h1">Les Plaids et Couvertures</h1>
       <div className="Cont">
         <div className="ContainerCards">
           {plaidCoverageCards.map((info) => (

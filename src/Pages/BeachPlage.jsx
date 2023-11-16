@@ -40,7 +40,7 @@ export default function BeachPlage() {
   ];
   return (
     <>
-      <h1 className="h1">Les sacs de plage</h1>
+
       <div className="Cont">
         <div className="ContainerCards">
           {sacCards.map((info) => (

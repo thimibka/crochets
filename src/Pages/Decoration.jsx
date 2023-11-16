@@ -166,7 +166,7 @@ export default function Decoration() {
   ];
   return (
     <>
-      <h1 className="h1">Les decorations</h1>
+
       <div className="Cont">
         <div className="ContainerCards">
           {decorationCards.map((info) => (

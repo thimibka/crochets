@@ -238,7 +238,6 @@ export default function Amigurumi() {
   ];
   return (
     <>
-      <h1 className="h1">Peluches</h1>
       <div className="Cont">
         <div className="ContainerCards">
           {amigurumiCards.map((info) => (

@@ -43,7 +43,7 @@ export default function SnoodNeckCoverChale() {
 
   return (
     <>
-      <h1 className="h1">Les Caches cou</h1>
+     
       <div className="Cont">
         <div className="ContainerCards">
           {neckCoverCards.map((info) => (

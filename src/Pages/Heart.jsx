@@ -34,7 +34,7 @@ export default function Heart() {
   ];
   return (
     <>
-      <h1 className="h1">Coeurs</h1>
+   
       <div className="ContainerGrid">
         {cardsInfos.map((info) => (
           <div key={info.id} className="grid-item">
