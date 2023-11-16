@@ -1,7 +1,7 @@
 .Menu {
   font-size: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
   background: linear-gradient(
     90deg,
@@ -10,21 +10,29 @@
     rgba(160, 4, 115, 1) 100%
   );
   position: fixed;
-  top: 0;
+
   width: 100%;
   height: 50px;
+  z-index: 1;
 }
 a {
   // color: #dcb253;
-  color: #052c3d;
+  color: #f9ebeb;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  font-size: 20px;
 }
 .decolinkMenu {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.orgaLink {
+  display: flex;
+  flex-direction: row;
 }
 
 @media (max-width: 390px) {

@@ -58,7 +58,10 @@
   z-index: 1;
   display: block;
 }
-.a{
+.a {
   display: flex;
   flex-direction: column;
+}
+body {
+  background-color: gray;
 }

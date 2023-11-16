@@ -16,19 +16,19 @@ import Decoration from "./Pages/Decoration";
 // import image from "../src/assets/fond-ecran/cf.jpeg";
 import ScrollToTop from "./components/ScrollToTop";
 import Menu from "./components/Menu";
-import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
     <>
       <Menu />
-      <Navbar />
+    
 
       {/* <div className="background" style={{ backgroundImage: `url(${image})` }}> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/amigurumi" element={<Amigurumi />} />
-        <Route path="/plaid-couverture" element={<PlaidCoverage />} />
-        <Route path="/echarpe-cachecou-chale" element={<NeckCover />} />
+        <Route path="/couverture" element={<PlaidCoverage />} />
+        <Route path="/cachecou" element={<NeckCover />} />
         <Route path="/divers" element={<Divers />} />
         <Route path="/divers/porte-clef" element={<KeyRing />} />
         <Route path="/divers/chausson-bb" element={<BabySlipper />} />
