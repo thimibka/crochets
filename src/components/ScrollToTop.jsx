@@ -26,12 +26,16 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    <div
-      className={`scroll-to-top ${isVisible ? "visible" : ""}`}
-      onClick={scrollToTop}
-    >
-      ↑
-    </div>
+    <>
+      <div className="scroll">
+        <div
+          className={`scroll-to-top ${isVisible ? "visible" : ""}`}
+          onClick={scrollToTop}
+        >
+          ↑
+        </div>
+      </div>
+    </>
   );
 };
 

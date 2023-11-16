@@ -1,7 +1,7 @@
-import baleine from "../assets/peluches/baleine.jpeg";
+import baleine from "../assets/peluches/baleine.webp";
 import citrouille1 from "../assets/peluches/citrouille1.webp";
 import citrouille2 from "../assets/peluches/citrouille2.webp";
-import escargot from "../assets/peluches/escargot.jpeg";
+import escargot from "../assets/peluches/escargot.webp";
 import grenouille1 from "../assets/peluches/grenouille1.webp";
 import grenouille2 from "../assets/peluches/grenouille2.webp";
 import grenouille3 from "../assets/peluches/grenouille3.webp";
@@ -9,11 +9,11 @@ import grenouille4 from "../assets/peluches/grenouille4.webp";
 import grenouille5 from "../assets/peluches/grenouille5.webp";
 import grenouille6 from "../assets/peluches/grenouille6.webp";
 import grenpieuvre from "../assets/peluches/grenpieuvre.webp";
-import hiboux from "../assets/peluches/hiboux.jpeg";
+import hiboux from "../assets/peluches/hiboux.webp";
 import hochet from "../assets/peluches/hochet.webp";
 import hypobleu from "../assets/peluches/hypobleu.webp";
 import hyporose from "../assets/peluches/hyporose.webp";
-import koala from "../assets/peluches/koala.jpeg";
+import koala from "../assets/peluches/koala.webp";
 import licorne1 from "../assets/peluches/licorne1.webp";
 import licorne2 from "../assets/peluches/licorne2.webp";
 import panda from "../assets/peluches/panda.webp";
@@ -33,10 +33,10 @@ import rennes3 from "../assets/peluches/rennes3.webp";
 import renpieuvre from "../assets/peluches/renpieuvre.webp";
 import sucredorge from "../assets/peluches/sucredorge.webp";
 import total from "../assets/peluches/total.webp";
-import montage1 from "../assets/peluches/montage1.jpeg";
-import montage2 from "../assets/peluches/montage2.jpeg";
-import montage3 from "../assets/peluches/montage3.jpeg";
-import hypocampe from "../assets/peluches/hypocampe.jpeg";
+import montage1 from "../assets/peluches/montage1.webp";
+import montage2 from "../assets/peluches/montage2.webp";
+import montage3 from "../assets/peluches/montage3.webp";
+import hypocampe from "../assets/peluches/hypocampe.webp";
 
 export default function Amigurumi() {
   const amigurumiCards = [

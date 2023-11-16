@@ -43,7 +43,7 @@
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 50px;
   background-color: rgba(160, 4, 115, 1);
   color: #fff;
   font-size: 20px;
@@ -55,5 +55,6 @@
 }
 
 .scroll-to-top.visible {
+  z-index: 1;
   display: block;
 }

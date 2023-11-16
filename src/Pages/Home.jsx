@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import home from "../assets/logo/logocrochet.jpeg";
+import home from "../assets/logo/logocrochet.webp";
 import fleche from "../assets/fleches/fleche.png";
 import total from "../assets/peluches/total.webp";
 import plaid11 from "../assets/plaid/plaid11.webp";
