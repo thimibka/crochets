@@ -25,10 +25,10 @@ export default function Home() {
     navigate("/amigurumi");
   }
   function coverageParadise() {
-    navigate("/plaid-couverture");
+    navigate("/couverture");
   }
   function snoodParadise() {
-    navigate("/echarpe-cachecou-chale");
+    navigate("/cachecou");
   }
   function portecleParadise() {
     navigate("/divers/porte-clef");
