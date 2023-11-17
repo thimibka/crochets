@@ -20,9 +20,8 @@ import Menu from "./components/Menu";
 export default function App() {
   return (
     <>
+      
       <Menu />
-    
-
       {/* <div className="background" style={{ backgroundImage: `url(${image})` }}> */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -39,7 +38,6 @@ export default function App() {
         <Route path="/marque-pages" element={<Bookmark />} />
       </Routes>
       {/* </div> */}
-
       <ScrollToTop />
     </>
   );
