@@ -9,6 +9,7 @@ import ensemble from "../assets/porteclef/ensemble.webp";
 import chausson3 from "../assets/chaussons-bébé/chausson3.webp";
 import decoration16 from "../assets/decorations/decoration16.webp";
 import sacplage5 from "../assets/sac-plage/sacplage5.webp";
+import Menu from "../components/Menu";
 
 export default function Home() {
   const card1 = [total];
