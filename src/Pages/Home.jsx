@@ -43,9 +43,7 @@ export default function Home() {
   function sacParadise() {
     navigate("/divers/sac-plage");
   }
-  // window.onload = function () {
-  //   window.scrollTo(0, 0);
-  // };
+ 
   return (
     <>
       <div className="HomePresentation">
