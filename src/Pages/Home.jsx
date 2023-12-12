@@ -43,7 +43,7 @@ export default function Home() {
   function sacParadise() {
     navigate("/divers/sac-plage");
   }
- 
+
   return (
     <>
       <div className="HomePresentation">
@@ -156,6 +156,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="link-reseau">
+     
+          <ul>
+            <a href="https://www.facebook.com/profile.php?id=100089088925441">
+              facebook
+            </a>
+          </ul>
+          <ul>
+            <a href="https://www.instagram.com/les_crochets_de_marinette/?igshid=MzMyNGUyNmU2YQ%3D%3D">
+              instagram
+            </a>
+          </ul>
+        
       </div>
     </>
   );
